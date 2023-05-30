@@ -9,6 +9,6 @@ export default defineConfig({
             name: 'mapgl_indoor',
             fileName: (format) => `map-gl-indoor.${format}.js`
         },
-        outDir: resolve(__dirname, 'dist', 'lib'),
+        //outDir: resolve(__dirname, 'dist', 'lib'),
     }
 });

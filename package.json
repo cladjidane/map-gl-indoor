@@ -65,8 +65,8 @@
   },
   "exports": {
     ".": {
-      "import": "./dist/lib/map-gl-indoor.es.js",
-      "require": "./dist/lib/map-gl-indoor.umd.js"
+      "import": "./dist/map-gl-indoor.es.js",
+      "require": "./dist/map-gl-indoor.umd.js"
     }
   }
 }

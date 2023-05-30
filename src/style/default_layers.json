@@ -220,7 +220,12 @@
         "source": "indoor",
         "paint": {
             "line-color": "#000",
-            "line-width": 1,
+            "line-width": [
+              "case",
+              ["has", "stroke-width"],
+              ["get", "stroke-width"],
+              10
+            ],
             "line-opacity": {
                 "base": 1,
                 "stops": [
